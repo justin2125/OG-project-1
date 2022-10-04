@@ -38,3 +38,10 @@ body {
   border: 5px black;
   position: relative;
 }
+.flipCard {
+  transform:rotateY(180deg);
+}
+
+.flipCard2 {
+  transform:rotateY(180deg);
+}

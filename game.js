@@ -2,32 +2,31 @@ const frontA = 1
 const frontB = 2
 const backA = 3
 const backB = 3
-document.getElementByClassName('frontA').addEventListener('click', flipA)
 
 const card = document.getElementById('card')
+let front = document.getElementByClassName('front').addEventListener
+const card2 = document.getElementById('card2')
+let front2 = document.getElementsByClassName('.front2')
+let back2 = document.getElementsByClassName('.back2')
 
 card.addEventListener('click', flipCard)
 
 flipCard = () => {
   card.classList.toggle('flipCard')
 }
-const card2 = document.getElementById('card2')
+
 card2.addEventListener('click', flipCard2)
 
-document.getElementsByClassName('.frontA').addEventListener('click', flipA())
-//
-document.getElementsByClassName('.frontB')
-//
-document.getElementsByClassName('.backA').addEventListener('click', flipB())
-//
-document.getElementsByClassName('.backB')
-//
+flipCard2 = () => {
+  card2.classList.toggle('flipCard2')
+}
+
 document.querySelectorAll('div')
 
-frontB.addEventListener('click', flipB())
-let flipB = (flips) => {
-  backA.classList.toggle(backB)
-}
+// frontB.addEventListener('click', flipB())
+// let flipB = (flips) => {
+//   backA.classList.toggle(backB)
+// }
 
 let start = (game) => {
   alert('The Game has begun !')
@@ -39,6 +38,10 @@ let start = (game) => {
 let timer = (time) => {
   alert('TIMES UPPPP')
   setTimeout(timer(), 90000)
+  if (time === 75000) {
+    alert('15 seconds left!!')
+  }
 }
+
 setTimeout(timer(), 90000)
 //start()
