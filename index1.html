@@ -9,13 +9,15 @@
   <title>The World Of Pairs</title>
 </head>
 <body>
-  <div class = container>
-    <div onclick="flipCard()" class="card" id="card">1</div>
-      <div class="cardB" id="back"></div>
-    <div onclick="flipCard2()" class="card2" id="card2">1</div>
-      <div class="cardB2" id="back2"></div>
-    </div>
+  <div class="container">
+  <div id="timer">Time :</div>
+  <div class="score">Score : <span class="scoreBoard">0</span></div>
+  <div class ="click">Click : <span class="clickboard">0</span></div> 
+      <div onclick="flipCard()" class="card" id="card">1</div>
+        <div class="cardB" id="back"></div>
+      <div onclick="flipCard2()" class="card2" id="card2">1</div>
+        <div class="cardB2" id="back2"></div>
   </div>
-  <button onclick="start()" id="startGame"> Start Game </button>
+  <button onclick="start()" id="startGame"> Try Again </button>
 </body>
 </html>

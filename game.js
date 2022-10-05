@@ -4,19 +4,25 @@ const card2 = document.getElementById('card2')
 let back2 = document.getElementsByClassName('.back2')
 let all = document.querySelectorAll('div')
 
+let cardArray = [card, card2]
+let cardsId = []
+let cardsSelected = []
+
 flipCard = () => {
   card.classList.toggle('cardB')
 }
-//card.addEventListener('click', flipCard())
-
 flipCard2 = () => {
   card2.classList.toggle('backB2')
 }
-//card2.addEventListener('click', secondFlipCard)
-
+// cardTimer2 = () => {
+//   back2.classList.toggle('card2')
+// }
 let startGame = document.getElementById('startGame')
 const start = () => {
   console.log('testing testing')
+  if (cardsId.length === 2) {
+    setTimeout(checkForMatch, 500)
+  }
   if (card.innerHTML === card2.innerHTML) {
     console.log('that is a match, great job!!')
   }
@@ -51,7 +57,7 @@ let clickC = () => {
   if (clicks === 8) {
     console.log('0 tries left')
 
-    startGame.addEventListener('click', clickC())
+    startGame.addEventListener('click', clickC)
   }
 }
 
