@@ -2,17 +2,18 @@ const card = document.getElementById('card')
 const back = document.getElementById('back')
 const card2 = document.getElementById('card2')
 let back2 = document.getElementsByClassName('.back2')
+let all = document.querySelectorAll('div')
 
-let flipCard = () => {
+flipCard = () => {
   card.classList.toggle('#back')
 }
-card.addEventListener('click', flipCard())
+//card.addEventListener('click', flipCard())
 
-let flipCard2 = () => {
-  card2.classList.toggle('#back2').addEventListener('click', card2)
+flipCard2 = () => {
+  card2.classList.toggle('#back2')
 }
+//card2.addEventListener('click', secondFlipCard)
 
-document.querySelectorAll('div')
 let startGame = document.getElementById('startGame')
 const start = () => {
   console.log('testing testing')

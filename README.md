@@ -1,7 +1,5 @@
 # OG-project-1
 
-This will be one of my first projects becoming a full stack developer, super excited and stoked .
-
 # The World Of Pairs
 
 ## Date: 10/2/2022
@@ -18,21 +16,28 @@ This will be one of my first projects becoming a full stack developer, super exc
 
 #### These three links gives a description/display of who and what i will become in the future, most importantly the links i have provided are the key steps for my crucial journey to become a **web developer**.
 
-## How to get started [https://trello.com/b/WB0XiZnj/the-world-of-pairs]
+## **_Technologies Used_**
+
+- Item 1
+- Item 2
+  - Sub-item
+
+1. Item 1
+2. Item 2
+
+- Sub-item
+
+## My way of planning :
+
+#### [Trello] (https://trello.com/b/WB0XiZnj/the-world-of-pairs)
 
 ### **_Screenshots_**
 
 #### Image Header 1
 
-![Image](http://www.imageURL.com)
-
 #### Image Header 2
 
-![Image](https://3.bp.blogspot.com/_LDF9z4ZzZHo/TQALfYxDv8I/AAAAAAAAAKE/bSd9BAPyyfU/s1600/1600DOG_13018.jpg)
-
 #### Image Header 3
-
-![Image](http://pawdaciousportraits.com/wp-content/uploads/2018/11/funny-senior-dog-ear-rub-photo-mi.jpg)
 
 ## **_Future Update_**
 
@@ -45,7 +50,7 @@ This will be one of my first projects becoming a full stack developer, super exc
 
 ## **_Credits_**
 
-### Funny Images: [DuckDuckGoSearch] (https://duckduckgo.com/)
+###
 
 ### Markdown Guide: [ia.net] (https://github.com/SEI-R-9-19/u1_hw_markdown)
 

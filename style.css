@@ -31,13 +31,14 @@ button {
   border:1px black;
 }
 #card{
-  background-image: url("https://cdn.wallpapersafari.com/18/70/qTXgkG.jpg");
+  background-image: url();
   background-size: cover;
   color:rgba(0, 0, 0, 0);
   width:125px;
   height:185px;
   position:relative;
   object-fit:contain;
+  cursor: pointer;
   transition: transform 0.8s;
     transform-style: preserve-3d;
   
@@ -46,7 +47,7 @@ button {
 #back {
   background-image: url("https://hdclipartall.com/images/ace-card-clipart-ace-of-clubs-1773x2395.png");
   width:125px;
-  height:170px;
+  height:185px;
   background-size: cover;
   position:absolute;
 }
@@ -58,6 +59,7 @@ button {
   position: absolute;
   margin:auto;
   color:rgba(0, 0, 0, 0);
+  cursor: pointer;
 
 }
 #back2 {
