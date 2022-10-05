@@ -17,56 +17,50 @@ body {
 button {
   color:rgb(142, 30, 247);
   position:absolute;
-  margin-top:25px;
+  display: block;
+
 }
-.container {
-  margin-left: 100px;
+.container{
   background-color: rgba(3, 123, 131, 0.356);
   position:absolute;
-  display:inline;
-  margin:auto;
   width:600px;
   height:600px;
-  text-align: center;
   border:1px black;
 }
 #card{
-  background-image: url();
+  background-image:url("https://images.fineartamerica.com/images-medium-large/old-playing-cards-garry-gay.jpg") ;
   background-size: cover;
-  color:rgba(0, 0, 0, 0);
+  color:rgb(238, 14, 14);
   width:125px;
   height:185px;
+  margin-top:25px ;
   position:relative;
-  object-fit:contain;
-  cursor: pointer;
-  transition: transform 0.8s;
-    transform-style: preserve-3d;
-  
+  cursor:pointer;
 }
 
-#back {
+
+.backB {
   background-image: url("https://hdclipartall.com/images/ace-card-clipart-ace-of-clubs-1773x2395.png");
+  background-size: cover;
   width:125px;
   height:185px;
-  background-size: cover;
-  position:absolute;
 }
 .card2 {
-  background-image: url("https://cdn.wallpapersafari.com/18/70/qTXgkG.jpg");
-  background-size: cover;
-  width : 125px;
-  height: 175px;
-  position: absolute;
+  width :125px;
+  height:175px;
+  position:absolute;
   margin:auto;
-  color:rgba(0, 0, 0, 0);
-  cursor: pointer;
-
-}
-#back2 {
-  background-image: url("https://hdclipartall.com/images/ace-card-clipart-ace-of-clubs-1773x2395.png");
-  width:125px;
-  height:185px;
+  color:rgba(233, 5, 5, 0.926);
+  cursor:pointer;
+  background-image:url("https://images.fineartamerica.com/images-medium-large/old-playing-cards-garry-gay.jpg") ;
   background-size: cover;
+}
+
+.backB2 {
+  background-image: url("https://hdclipartall.com/images/ace-card-clipart-ace-of-clubs-1773x2395.png");
+  background-size: cover;
+  width:125px;
+  height:175px;
 }
 .flipCard {
   transform:rotateY(180deg);

@@ -5,26 +5,26 @@ let back2 = document.getElementsByClassName('.back2')
 let all = document.querySelectorAll('div')
 
 flipCard = () => {
-  card.classList.toggle('#back')
+  card.classList.toggle('back')
 }
 //card.addEventListener('click', flipCard())
 
 flipCard2 = () => {
-  card2.classList.toggle('#back2')
+  card2.classList.toggle('backB2')
 }
 //card2.addEventListener('click', secondFlipCard)
 
 let startGame = document.getElementById('startGame')
 const start = () => {
   console.log('testing testing')
-  if (card === card2) {
+  if (card.innerHTML === card2.innerHTML) {
     console.log('that is a match, great job!!')
   }
 }
 let timer = () => {
   console.log('THE TIMER HAS STARTED')
 }
-setInterval(timer(), 90000)
+setInterval(timer, 90000)
 
 let mid = () => {
   console.log('45 seconds left')
@@ -60,3 +60,5 @@ let clickC = () => {
 // }
 start()
 //<img src="https://hdclipartall.com/images/ace-card-clipart-ace-of-clubs-1773x2395.png" alt="club" id="img2">
+
+//https://banner2.kisspng.com/20180401/dyw/kisspng-gin-rummy-bicycle-playing-cards-united-states-play-ace-card-5ac1861c9c09d2.6612168315226322206391.jpg
