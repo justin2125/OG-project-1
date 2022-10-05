@@ -27,23 +27,24 @@ button {
   height:600px;
   border:1px black;
 }
-#card{
+.card{
   background-image:url("https://images.fineartamerica.com/images-medium-large/old-playing-cards-garry-gay.jpg") ;
   background-size: cover;
   color:rgb(238, 14, 14);
   width:125px;
   height:185px;
   margin-top:25px ;
-  position:relative;
+  position:absolute;
   cursor:pointer;
 }
 
 
-.backB {
+.cardB {
   background-image: url("https://hdclipartall.com/images/ace-card-clipart-ace-of-clubs-1773x2395.png");
   background-size: cover;
   width:125px;
   height:185px;
+  margin-top:25px
 }
 .card2 {
   width :125px;

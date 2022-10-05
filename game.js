@@ -5,7 +5,7 @@ let back2 = document.getElementsByClassName('.back2')
 let all = document.querySelectorAll('div')
 
 flipCard = () => {
-  card.classList.toggle('back')
+  card.classList.toggle('cardB')
 }
 //card.addEventListener('click', flipCard())
 
