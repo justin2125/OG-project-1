@@ -1,47 +1,61 @@
-const frontA = 1
-const frontB = 2
-const backA = 3
-const backB = 3
-
 const card = document.getElementById('card')
-let front = document.getElementByClassName('front').addEventListener
+const back = document.getElementById('back')
 const card2 = document.getElementById('card2')
-let front2 = document.getElementsByClassName('.front2')
 let back2 = document.getElementsByClassName('.back2')
 
-card.addEventListener('click', flipCard)
-
-flipCard = () => {
-  card.classList.toggle('flipCard')
+let flipCard = () => {
+  card.classList.toggle('#back')
 }
+card.addEventListener('click', flipCard())
 
-card2.addEventListener('click', flipCard2)
-
-flipCard2 = () => {
-  card2.classList.toggle('flipCard2')
+let flipCard2 = () => {
+  card2.classList.toggle('#back2').addEventListener('click', card2)
 }
 
 document.querySelectorAll('div')
-
-// frontB.addEventListener('click', flipB())
-// let flipB = (flips) => {
-//   backA.classList.toggle(backB)
-// }
-
-let start = (game) => {
-  alert('The Game has begun !')
+let startGame = document.getElementById('startGame')
+const start = () => {
   console.log('testing testing')
-  if (backA === backB) {
+  if (card === card2) {
     console.log('that is a match, great job!!')
   }
 }
-let timer = (time) => {
-  alert('TIMES UPPPP')
-  setTimeout(timer(), 90000)
-  if (time === 75000) {
-    alert('15 seconds left!!')
+let timer = () => {
+  console.log('THE TIMER HAS STARTED')
+}
+setInterval(timer(), 90000)
+
+let mid = () => {
+  console.log('45 seconds left')
+}
+setInterval(mid(), 45000)
+
+let end = () => {
+  console.log('TIMES UPPPP!!!')
+}
+setInterval(end(), 00000)
+
+let clicks = 0
+let clickC = () => {
+  clicks += 1
+  if (clicks === 2) {
+    console.log('3 more tries')
+  }
+  if (clicks === 4) {
+    console.log('2 more tries')
+  }
+  if (clicks === 6) {
+    console.log('1 more tries')
+  }
+  if (clicks === 8) {
+    console.log('0 tries left')
+
+    startGame.addEventListener('click', clickC())
   }
 }
 
-setTimeout(timer(), 90000)
-//start()
+// for(let i = 0; i < cardElementsArray.length; i++) {
+//   cardElementsArray[i].addEventListener("click", displayCard)
+// }
+start()
+//<img src="https://hdclipartall.com/images/ace-card-clipart-ace-of-clubs-1773x2395.png" alt="club" id="img2">

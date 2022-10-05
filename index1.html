@@ -4,20 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
   <script defer src="game.js"></script>
   <title>The World Of Pairs</title>
 </head>
 <body>
+  <img src="">
   <div class = container>
-    <div class="card" id="card">
-      <div class="front" id="front"></div>
-      <div class="back" id="back"></div>
+    <div onclick="flipCard()" class="card" id="card">1
+      <div class="card" id="back">
+      </div>
     </div>
-    <div class="card2" id="card2">
-      <div class="front2" id="front2"></div>
-      <div class="back2" id="back2"></div>
-    </div>
-  <button onclick ="start" id="startGame"> Start Game </button>
+    <div onclick="flipCard()" class="card2" id="card2">2
+      <div class="card2" id="back2">
+        <img src="" alt="" id="img4">
+      </div>
+  </div>
+  <button  id="startGame"> Start Game </button>
 </body>
 </html>
